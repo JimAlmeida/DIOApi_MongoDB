@@ -1,18 +1,13 @@
-using System;
 using Xunit;
 using Microsoft.AspNetCore.Mvc.Testing;
 using API;
 using System.Net.Http;
 using API.DTO;
 using Newtonsoft.Json;
-using System.Text.Encodings;
 using System.Text;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
-using MongoDB.Bson;
-using MongoDB.Bson.Serialization.IdGenerators;
-using APITest.Orderers;
 
 namespace APITest
 {
